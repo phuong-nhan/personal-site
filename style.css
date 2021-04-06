@@ -10,10 +10,9 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: 5.5px;
-  font-weight: 500;
+  font-size: 9px;
   font-family: 'Quicksand', sans-serif;
-  line-height: 1.4;
+  line-height: 1.8;
   color: black;
   background-color: white;  
   margin-block-end: 0;
@@ -23,10 +22,6 @@ body {
   overflow-x: hidden;
   width: 100vw;
   position: relative;
-}
-
-.piece-page {
-  font-size: 9px;
 }
 
 img {
@@ -56,7 +51,7 @@ footer {
 }
 
 .container {
-  padding: 0.5em;
+  padding-left: 2em;
   max-width: 92em;
   margin: 0 auto;
 }
@@ -71,7 +66,7 @@ footer {
   color: white;
   text-decoration: none;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 20px;
   letter-spacing: 1.5px;
   border-radius: 0.5em;
   min-width: 12em;
@@ -100,7 +95,7 @@ footer {
 
 h1 {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 2.5em;
   margin: 0;
   padding: 0;
   line-height: 1.2;
@@ -108,7 +103,7 @@ h1 {
 
 h2 {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 2.5em;
   letter-spacing: 0.03em;
   line-height: 1.2;
   margin: 0 0 0.5em 0;
@@ -116,7 +111,7 @@ h2 {
 
 h3 {
   font-weight: 700;
-  font-size: 11px;
+  font-size: 1.5em;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #d3858e;
@@ -125,7 +120,7 @@ h3 {
 
 h4 {
   font-weight: 900;
-  font-size: 13px;
+  font-size: 1.75em;
   line-height: 1.25;
   letter-spacing: 0.02em;
   margin-block-start: 0;
@@ -134,14 +129,15 @@ h4 {
 
 h5 {
   color: #d3858e;
-  font-size: 8px;
-  line-height: 2;
+  font-size: 1.1em;
+  line-height: 1.5em;
 }
 
 h6 {
-  font-size: 8px;
-  font-weight: 500;
-  margin-block-start: 5px;
+  font-size: 29px;
+  letter-spacing: 0.055em;
+  color: #F1D2AE;
+  margin-block-end: 0.5em;
 }
 
 p {
@@ -193,8 +189,8 @@ body:after {
 }
 
 .home-page:after {
-  top: 180vh;
-  height: calc(100% - 180vh);
+  top: 194vh;
+  height: calc(100% - 194vh);
   width: 40%;
 }
 
@@ -372,21 +368,21 @@ header:after {
 
   grid-template-columns: 20% 12% 12% 12% 12% 12% 20%;
   position: absolute;
-  top: 0;
+  top: 6px;
   width: 100%;
   align-items: center;
   align-content: center;
   z-index: -3;
-  height: 9.5em;
+  height: 8em;
 }
 
 .page-highlight {
   position: relative;
   width: 2em;
   height: 2em;
-  background: #d3858ed6;
+  background: #d3858e;
   border-radius: 50%;
-  box-shadow: 0 0 12px 5px #d3858ed9;
+  box-shadow: 0 0 10px 5px #e5b6bc;
   top: 1em;
   margin: 0 auto;
   display: none;
@@ -507,7 +503,7 @@ header:after {
 
 .home-banner {
   min-height: 20em;
-  height: 20vh;
+  height: 25vh;
   margin: 0;
   position: relative;
   background-image: url(img/homebanner.png);
@@ -526,8 +522,8 @@ header:after {
 
 .banner-title-gap p {
   border-right: 1px solid;
-  padding-right: 0.8em;
-  margin: 0 auto 0 0;
+  padding-right: 0.5em;
+  margin: 0 0.5em 0 0;
   display: inline;
   width: auto;
   text-align: center;
@@ -563,7 +559,7 @@ header:after {
   position: relative;
   z-index: 2;
   max-width: 50em;
-  margin: 10em 6em;
+  margin: 12em auto;
 }
 
 .about-clips:before {
@@ -649,7 +645,7 @@ header:after {
   border-radius: 1em;
   overflow: hidden;
   background: white;
-  box-shadow: 0 0 20px rgb(40 40 40 / 45%);
+  box-shadow: 0 0 10px rgb(40 40 40 / 25%);
 }
 
 .portfolio-grid {
@@ -677,7 +673,7 @@ h4.full-width-item {
 .portfolio-thumbnail {
   overflow: hidden;
   border-radius: 1em;
-  max-height: 44em;
+  max-height: 40em;
   position: relative;
 }
 
@@ -793,6 +789,10 @@ h4.full-width-item {
   padding: 2em 1em;
 }
 
+.contact-me-text-contact {
+  padding: 2em 1em;
+  border-right: 2px solid #87d1d6;
+}
 
 .contact-container {
   margin: 0.5em;
@@ -947,16 +947,14 @@ h4.full-width-item {
 
   body {
     font-size: 14px;
-    line-height: 1.8;
-    font-weight: 400;
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 4em;
   }
 
   h2 {
-    font-size: 50px;
+    font-size: 4em;
   }
 
   h3 {
@@ -967,40 +965,21 @@ h4.full-width-item {
     font-size: 2.5em;
   }
 
-  h5 {
-    font-size: 22px;
+  header:before {
+  width: 30%;
+  left: 20%;
   }
 
-  h6 {
-    font-size: 17px;
-  }
-
-  .back-to-top , .button {
-    font-size: 20px;
-  }
-
-  .portfolio-thumbnail {
-    max-height: 27em;
-  }
-
-  .header:before {
-    width: 30%;
-    left: 20%;
-  }
-
-  .header:after {
-    width: 30%;
+  header:after {
+  width: 30%;
   }
 
   .home-banner {
-    height: 75vh;}
-
-  .banner-title-gap {
-    font-size: 1.25em;
+  height: 75vh;
   }
 
-  .about-clips {
-  margin: 12em auto;
+  .container {
+    padding-left: 0;
   }
 
   .portfolio-grid {
@@ -1068,6 +1047,10 @@ h4.full-width-item {
 
   .second-image-of-piece .image-n-description-grid {
     column-gap: 1em;
+  }
+
+  .portfolio-thumbnail {
+  max-height: 27em;
   }
 
 
