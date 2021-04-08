@@ -113,24 +113,6 @@ jupiter.addEventListener('mouseleave', pauseAudio)
 /* INTERACTING */
 
 
-function menuToggle(selector) {
-  let tgl = document.querySelector(selector)
-  tgl.addEventListener('click', function() {
-    document.body.classList.toggle('menu-active')
-  })
-}
-
-menuToggle('.toggle')
-
-
-
-
-
-
-
-// Make items draggable by specifying a selector, for example
-// draggable('.drag')
-
 draggable('.drag')
 
 
@@ -239,5 +221,3 @@ function draggable(selector) {
     document.querySelector('.reset').addEventListener('click', resetAllItems)
   }
 }
-
-
