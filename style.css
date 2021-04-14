@@ -51,7 +51,6 @@ footer {
 }
 
 .container {
-  padding-left: 2em;
   max-width: 92em;
   margin: 0 auto;
 }
@@ -987,7 +986,11 @@ h4.full-width-item {
   }
 
   .home-banner {
-    height: 56vh;
+    height: 85vh;
+  }
+
+  .container {
+  padding-left: 4em;
   }
 
 
@@ -1072,7 +1075,7 @@ h4.full-width-item {
 
 }
 
-@media (min-width: 72em) {
+@media (min-width: 85em) {
 
     body {
     font-size: 14px;
@@ -1127,12 +1130,15 @@ h4.full-width-item {
 
 
   .home-banner .container {
-    padding-top: 4em;
-    padding-left: 0;
+    padding-top: 3em;
   }
 
   .home-banner {
-    height: 82vh;
+    height: 75vh;
+  }
+
+  .container {
+  padding-left: 0;
   }
 
   .about-container,
