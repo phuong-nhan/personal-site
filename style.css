@@ -962,11 +962,11 @@ h4.full-width-item {
   }
 
   h1 {
-    font-size: 2.5em;
+    font-size: 4em;
   }
 
   h2 {
-    font-size: 2.5em;
+    font-size: 4em;
   }
 
   h3 {
@@ -974,7 +974,7 @@ h4.full-width-item {
   }
 
   h4 {
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
 
   header:before {
@@ -987,7 +987,7 @@ h4.full-width-item {
   }
 
   .home-banner {
-    height: 38vh;
+    height: 56vh;
   }
 
 
@@ -1063,7 +1063,7 @@ h4.full-width-item {
   }
 
   .portfolio-thumbnail {
-    max-height: 30em;
+    max-height: 55em;
   }
 
   .button {
