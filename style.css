@@ -506,7 +506,7 @@ header:after {
 
 .home-banner {
   min-height: 20em;
-  height: 18vh;
+  height: 25vh;
   margin: 3em 0 0 0;
   position: relative;
   background-image: url(img/homebanner.png);
@@ -676,7 +676,7 @@ h4.full-width-item {
 .portfolio-thumbnail {
   overflow: hidden;
   border-radius: 1em;
-  max-height: 40em;
+  max-height: 60em;
   position: relative;
 }
 
