@@ -74,7 +74,6 @@ anchorscroll(0.5, '.scroll', 0)
 /* AUDIO/VIDEO */
 
 
-console.log('test')
 
 let playVid = document.querySelector('.play')
 let video  = document.querySelector('.vid')
@@ -93,8 +92,9 @@ function playPauseVid() {
 
 }
 
-playVid.addEventListener('click', playPauseVid)
-
+if (playVid) {
+  playVid.addEventListener('click', playPauseVid)
+}
 
 function playAudio() {
   timhortons.play() 
@@ -106,9 +106,10 @@ function pauseAudio() {
   console.log('pause')
 }
 
-jupiter.addEventListener('click', playAudio)
-jupiter.addEventListener('mouseleave', pauseAudio)
-
+// if (jupiter) {
+//   jupiter.addEventListener('click', playAudio)
+//   jupiter.addEventListener('mouseleave', pauseAudio)
+// }
 
 /* INTERACTING */
 
