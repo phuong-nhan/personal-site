@@ -44,7 +44,7 @@ section {
 footer {
   text-align: center;
   padding: 1em 0;
-  margin: 8em 0 0 0;
+  margin: 6em 0 0 0;
   background: white;
   position: relative;
   z-index: 2;
@@ -61,7 +61,7 @@ footer {
   font-size: 11px;
   display: inline-block;
   align-items: center;
-  margin-top: 4em;
+  margin-top: 1em;
   padding: 0.5em 2em 0.5em 2em;
   background-color: #87d1d6;
   color: white;
@@ -208,10 +208,14 @@ body:after {
 
 .portfolio-page:before {
   width: 40%;
+  top: 40vh;
+  height: calc(100% - 40vh);
 }
 
 .portfolio-page:after {
-  width: 70%;
+  width: 60%;
+  top: 27vh;
+  height: calc(100% - 27vh);
 }
 
 .contact-page:before {
@@ -225,14 +229,14 @@ body:after {
 }
 
 .piece-page:before {
-  height: calc(100% - 200vh);
-  top: 200vh;
+  height: calc(100% - 275vh);
+  top: 275vh;
   border-radius: 0;
 }
 
 .piece-page:after {
-  height: calc(100% - 200vh);
-  top: 200vh;
+  height: calc(100% - 290vh);
+  top: 290vh;
   border-radius: 0;
 }
 
@@ -607,6 +611,8 @@ header:after {
 
 .about-me-text {
   padding: 2em 1em;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .about-container {
@@ -627,7 +633,7 @@ header:after {
 .about-item {
   box-shadow: 0 0 10px 0 rgb(40 40 40 / 25%);
   border-radius: 1em;
-  padding: 1em;
+  padding: 3em;
 }
 
 .download-item {
@@ -648,7 +654,7 @@ header:after {
   border-radius: 1em;
   overflow: hidden;
   background: white;
-  box-shadow: 0 0 10px rgb(40 40 40 / 25%);
+  box-shadow: 0 0 15px rgb(40 40 40 / 55%);
 }
 
 .portfolio-grid {
@@ -665,12 +671,12 @@ header:after {
 .portfolio-page h4 {
   text-align: left;
   max-width: 60rem;
-  margin: 1em auto 0.5em;
 }
 
 h4.full-width-item {
   text-align: left;
-  margin-top: 1em;
+  margin-bottom: 0.5em;
+  letter-spacing: 2px;
 }
 
 .portfolio-thumbnail {
@@ -830,7 +836,7 @@ h4.full-width-item {
   display: grid;
 }
 
-.description {
+.description, .description-cat-1 {
   margin: 3em 2em 0 2em;
 }
 
@@ -943,6 +949,260 @@ h4.full-width-item {
   z-index: -1;
 }
 
+
+.img-1 {
+    top: 160em;
+    left: 1em;
+    transform: rotate(53deg) scale(0.6);
+  }
+
+  .img-2 {
+    top: 172em;
+    left: 1em;
+    transform: rotate(100deg) scale(0.6);
+  }
+
+
+  .img-3 {
+    top: 184em;
+    left:  1em;
+    transform: rotate(23deg) scale(0.6);
+  }
+
+  .img-4 {
+    top: 196em;
+    left:  1em;
+    transform: rotate(20deg) scale(0.6);
+  }
+
+  .img-5 {
+    top: 208em;
+    left: 1em;
+    transform: rotate(185deg) scale(0.6);
+  }
+
+  .img-6 {
+    top: 220em;
+    left: 1em;
+    transform: rotate(-30deg) scale(0.6);
+  }
+
+  .img-7 {
+    top: 232em;
+    left:  1em;
+    transform: rotate(20deg) scale(0.6);
+  }
+
+  .img-8 {
+    top: 244em;
+    left:  1em;
+    transform: rotate(-40deg) scale(0.6);
+  }
+
+  .img-9 {
+    top: 160em;
+    left: 10em;
+    transform: rotate(-86deg) scale(0.6);
+  }
+
+  .img-10 {
+    top: 172em;
+    left: 10em;
+    transform: rotate(-53deg) scale(0.6);
+  }
+
+  .img-11 {
+    top: 184em;
+    left:  10em;
+    transform: rotate(52deg) scale(0.6);
+  }
+
+  .img-12 {
+    top: 196em;
+    left:  10em;
+    transform: rotate(12deg) scale(0.6);
+  }
+
+  .img-13 {
+    top: 208em;
+    left: 10em;
+    transform: rotate(-50deg) scale(0.6);
+  }
+
+  .img-14 {
+    top: 220em;
+    left: 10em;
+    transform: rotate(-34deg) scale(0.6);
+  }
+
+  .img-15 {
+    top: 232em;
+    left:  10em;
+    transform: rotate(3deg) scale(0.6);
+  }
+
+  .img-16 {
+    top: 244em;
+    left:  10em;
+    transform: rotate(128deg) scale(0.6);
+  }
+
+  .img-17 {
+    top: 160em;
+    left: 20em;
+    transform: rotate(20deg) scale(0.6);
+  }
+
+  .img-18 {
+    top: 172em;
+    left: 20em;
+    transform: rotate(-24deg) scale(0.6);
+  }
+
+  .img-19 {
+    top: 184em;
+    left:  20em;
+    transform: rotate(-70deg) scale(0.6);
+  }
+
+  .img-20 {
+    top: 196em;
+    left:  20em;
+    transform: rotate(40deg) scale(0.6);
+  }
+
+  .img-21 {
+    top: 208em;
+    left: 20em;
+    transform: rotate(-65deg) scale(0.6);
+  }
+
+  .img-22 {
+    top: 220em;
+    left: 20em;
+    transform: rotate(-20deg) scale(0.6);
+  }
+
+  .img-23 {
+    top: 232em;
+    left:  20em;
+    transform: rotate(90deg) scale(0.6);
+  }
+
+  .img-24 {
+    top: 244em;
+    left:  20em;
+    transform: rotate(-80deg) scale(0.6);
+  }
+
+  .img-25 {
+    top: 160em;
+    left:  30em;
+    transform: rotate(40deg) scale(0.6);
+  }
+
+  .img-26 {
+    top: 172em;
+    left:  30em;
+    transform: rotate(5deg) scale(0.6);
+  }
+
+  .img-27 {
+    top: 184em;
+    left:   30em;
+    transform: rotate(170deg) scale(0.6);
+  }
+
+  .img-28 {
+    top: 196em;
+    left:   30em;
+    transform: rotate(70deg) scale(0.6);
+  }
+
+  .img-29 {
+    top: 208em;
+    left:  30em;
+    transform: rotate(-20deg) scale(0.6);
+  }
+
+  .img-30 {
+    top: 220em;
+    left:  30em;
+    transform: rotate(20deg) scale(0.6);
+  }
+
+  .img-31 {
+    top: 232em;
+    left:   30em;
+    transform: rotate(-20deg) scale(0.6);
+  }
+
+  .img-32 {
+    top: 244em;
+    left:   30em;
+    transform: rotate(20deg) scale(0.6);
+  }
+
+  .img-33 {
+    top: 160em;
+    left:40em;
+    transform: rotate(10deg) scale(0.6);
+  }
+
+  .img-34 {
+    top: 172em;
+    left:40em;
+    transform: rotate(40deg) scale(0.6);
+  }
+
+  .img-35 {
+    top: 184em;
+    left: 40em;
+    transform: rotate(-60deg) scale(0.6);
+  }
+
+  .img-36 {
+    top: 196em;
+    left: 40em;
+    transform: rotate(-110deg) scale(0.6);
+  }
+
+  .img-37 {
+    top: 208em;
+    left:40em;
+    transform: rotate(140deg) scale(0.6);
+  }
+
+  .img-38 {
+    top: 220em;
+    left:40em;
+    transform: rotate(100deg) scale(0.6);
+  }
+
+  .img-39 {
+    top: 232em;
+    left: 40em;
+    transform: rotate(220deg) scale(0.6);
+  }
+
+  .img-40 {
+    top: 244em;
+    left: 40em;
+    transform: rotate(-80deg) scale(0.6);
+  }
+
+  .img-41 {
+    top: 160em;
+    left: 50em;
+    transform: rotate(160deg) scale(0.6);
+  }
+
+  .img-42 {
+    top: 172em;
+    left: 50em;
+    transform: rotate(-140deg) scale(0.6);
+  }
+
 .description-cat-2 {
   border: 6px solid black;
   text-align: center;
@@ -950,6 +1210,14 @@ h4.full-width-item {
   font-size: 10px;
   font-weight: 600;
   letter-spacing: 2.2px;
+    height: 55vh;
+    margin: 2em 2em 0 2em;
+    padding-top: 6em;
+  }
+
+.project-filter {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
 }
 
 
@@ -995,6 +1263,7 @@ h4.full-width-item {
   }
 
 
+
   .portfolio-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto 1fr;
@@ -1003,7 +1272,7 @@ h4.full-width-item {
   .about-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3);
   }
 
   .bg-white-mobile {
@@ -1042,7 +1311,7 @@ h4.full-width-item {
   }
 
   .description {
-    margin: auto 9em 0 0;
+    margin: 9em 9em 0 0;
     padding-left: 4em;
   }
 
@@ -1052,8 +1321,20 @@ h4.full-width-item {
   }
 
   .description-stamp {
-    margin: auto 9em 0 0;
+    margin: auto 11em 0 0;
     padding-left: 4em;
+  }
+
+  .description-cat-1 {
+    margin: 6em 9em auto 0;
+    padding-left: 4em;
+  }
+
+  .description-cat-2 {
+    height: 110vh;
+    margin: 0 4em 0 2em;
+    font-size: 30px;
+    padding-top: 10em;
   }
 
   .second-image-of-piece {
@@ -1068,6 +1349,10 @@ h4.full-width-item {
 
   .portfolio-thumbnail {
     max-height: 55em;
+  }
+
+  .portfolio-inside-piece {
+    margin-top: 15em;
   }
 
   .button {
@@ -1145,7 +1430,7 @@ h4.full-width-item {
   .about-container,
   .portfolio-container {
     max-width: 70em;
-    margin: 0.5em auto;
+    margin: 3.5em auto;
     padding: 5em;
   }
 
@@ -1153,269 +1438,261 @@ h4.full-width-item {
     max-height: 27em;
   }
 
-  .description-cat-1 {
-    margin: 6em 9em auto 0;
-    padding-left: 4em;
-  }
-
-  .description-cat-2 {
-    height: 110vh;
-    margin: 0 4em 0 2em;
-    font-size: 30px;
-    padding-top: 10em;
-  }
-
   .img-1 {
     top: 65em;
     left: 4em;
-    transform: rotate(212deg);
+    transform: rotate(212deg) scale(1);
   }
 
   .img-2 {
     top: 70.5em;
     left: 8em;
-    transform: rotate(212deg);
+    transform: rotate(212deg) scale(1);
   }
 
 
   .img-3 {
     top: 76em;
     left: 5.5em;
-    transform: rotate(156deg);
+    transform: rotate(156deg) scale(1);
   }
 
   .img-4 {
     top: 82.5em;
     left: 5em;
-    transform: rotate(195deg);
+    transform: rotate(195deg) scale(1);
   }
 
   .img-5 {
     top: 63em;
     left: 12em;
-    transform: rotate(185deg);
+    transform: rotate(185deg) scale(1);
   }
 
   .img-6 {
     top: 78em;
     left: 16.5em;
-    transform: rotate(-30deg);
+    transform: rotate(-30deg) scale(1);
   }
 
   .img-7 {
     top: 71em;
     left: 18em;
-    transform: rotate(20deg);
+    transform: rotate(20deg) scale(1);
   }
 
   .img-8 {
     top: 86.5em;
     left: 6em;
-    transform: rotate(-40deg);
+    transform: rotate(-40deg) scale(1);
   }
 
   .img-9 {
     top: 64em;
     left: 18em;
-    transform: rotate(-86deg);
+    transform: rotate(-86deg) scale(1);
   }
 
   .img-10 {
     top: 72em;
     left: 13em;
-    transform: rotate(-53deg);
+    transform: rotate(-53deg) scale(1);
   }
 
   .img-11 {
     top: 79em;
     left: 13em;
-    transform: rotate(52deg);
+    transform: rotate(52deg) scale(1);
   }
 
   .img-12 {
     top: 85em;
     left: 16em;
-    transform: rotate(12deg);
+    transform: rotate(12deg) scale(1);
   }
 
   .img-13 {
     top: 85em;
     left: 18em;
-    transform: rotate(-50deg);
+    transform: rotate(-50deg) scale(1);
   }
 
   .img-14 {
     top: 75em;
     left: 24.5em;
-    transform: rotate(-34deg);
+    transform: rotate(-34deg) scale(1);
   }
 
   .img-15 {
     top: 90em;
     left: 19.5em;
-    transform: rotate(3deg);
+    transform: rotate(3deg) scale(1);
   }
 
   .img-16 {
     top: 62em;
     left: 25em;
-    transform: rotate(128deg);
+    transform: rotate(128deg) scale(1);
   }
 
   .img-17 {
     top: 68em;
     left: 24em;
-    transform: rotate(20deg);
+    transform: rotate(20deg) scale(1);
   }
 
   .img-18 {
     top: 79em;
     left: 24em;
-    transform: rotate(-24deg);
+    transform: rotate(-24deg) scale(1);
   }
 
   .img-19 {
     top: 87em;
     left: 33em;
-    transform: rotate(-70deg);
+    transform: rotate(-70deg) scale(1);
   }
 
   .img-20 {
     top: 65.5em;
     left: 32em;
-    transform: rotate(40deg);
+    transform: rotate(40deg) scale(1);
   }
 
   .img-21 {
     top: 84em;
     left: 25em;
-    transform: rotate(-65deg);
+    transform: rotate(-65deg) scale(1);
   }
 
   .img-22 {
     top: 80em;
     left: 36em;
-    transform: rotate(-20deg);
+    transform: rotate(-20deg) scale(1);
   }
 
   .img-23 {
     top: 78em;
     left: 33em;
-    transform: rotate(90deg);
+    transform: rotate(90deg) scale(1);
   }
 
   .img-24 {
     top: 64em;
     left: 42em;
-    transform: rotate(-80deg);
+    transform: rotate(-80deg) scale(1);
   }
 
   .img-25 {
     top: 73em;
     left: 32em;
-    transform: rotate(40deg);
+    transform: rotate(40deg) scale(1);
   }
 
   .img-26 {
     top: 84em;
     left: 42em;
-    transform: rotate(5deg);
+    transform: rotate(5deg) scale(1);
   }
 
   .img-27 {
     top: 91em;
     left: 36em;
-    transform: rotate(170deg);
+    transform: rotate(170deg) scale(1);
   }
 
   .img-28 {
     top: 77em;
     left: 41.5em;
-    transform: rotate(70deg);
+    transform: rotate(70deg) scale(1);
   }
 
   .img-29 {
     top: 70em;
     left: 49.5em;
-    transform: rotate(-20deg);
+    transform: rotate(-20deg) scale(1);
   }
 
   .img-30 {
     top: 78em;
     left: 48.5em;
-    transform: rotate(20deg);
+    transform: rotate(20deg) scale(1);
   }
 
   .img-31 {
     top: 87em;
     left: 48.5em;
-    transform: rotate(-20deg);
+    transform: rotate(-20deg) scale(1);
   }
 
   .img-32 {
     top: 90em;
     left: 50.5em;
-    transform: rotate(20deg);
+    transform: rotate(20deg) scale(1);
   }
 
   .img-33 {
     top: 70em;
     left: 41em;
-    transform: rotate(10deg);
+    transform: rotate(10deg) scale(1);
   }
 
   .img-34 {
     top: 77em;
     left: 53.5em;
-    transform: rotate(40deg);
+    transform: rotate(40deg) scale(1);
   }
 
   .img-35 {
     top: 83em;
     left: 52em;
-    transform: rotate(-60deg);
+    transform: rotate(-60deg) scale(1);
   }
 
   .img-36 {
     top: 70em;
     left: 55em;
-    transform: rotate(-110deg);
+    transform: rotate(-110deg) scale(1);
   }
 
   .img-37 {
     top: 75em;
     left: 62.5em;
-    transform: rotate(140deg);
+    transform: rotate(140deg) scale(1);
   }
 
   .img-38 {
     top: 80em;
     left: 62em;
-    transform: rotate(100deg);
+    transform: rotate(100deg) scale(1);
   }
 
   .img-39 {
     top: 62em;
     left: 67em;
-    transform: rotate(220deg);
+    transform: rotate(220deg) scale(1);
   }
 
   .img-40 {
     top: 69em;
     left: 68em;
-    transform: rotate(-80deg);
+    transform: rotate(-80deg) scale(1);
   }
 
   .img-41 {
     top: 76em;
     left: 68em;
-    transform: rotate(160deg);
+    transform: rotate(160deg) scale(1);
   }
 
   .img-42 {
     top: 87em;
     left: 68em;
-    transform: rotate(-140deg);
+    transform: rotate(-140deg) scale(1);
+  }
+
+  .puzzle {
+    margin-top: -60em;
   }
 
 
@@ -1441,7 +1718,7 @@ h4.full-width-item {
 }
 
 .puzzle {
-  min-height: 5em;
+  height: 70em;
 }
 
 .welcome {
