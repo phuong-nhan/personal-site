@@ -478,15 +478,14 @@ header:after {
   grid-template-columns: repeat(4, 2em);
   align-items: center;
   justify-content: center;
-  grid-column-gap: 0.5em;
+  grid-column-gap: 1em;
   align-content: center;
-  margin-top: 1em;
 }
 
 .mobile-social-media a {
-  font-size: 1rem;s
+  font-size: 1rem;
   display: block;
-  width: 1.5em;
+  width: 0.8em;
   display: grid;
   align-content: center;
   justify-content: center;
@@ -626,12 +625,12 @@ header:after {
 
 .about-grid {
   display: grid;
-  grid-gap: 1em;
-  padding: 0.5em;
+  grid-gap: 2em;
+  padding: 1.5em 16em;
 }
 
 .about-item {
-  box-shadow: 0 0 10px 0 rgb(40 40 40 / 25%);
+  box-shadow: 0 0 10px 0 rgb(217 170 176);
   border-radius: 1em;
   padding: 3em;
 }
@@ -1295,6 +1294,11 @@ h4.full-width-item {
     background-position: left top;
     background-repeat: no-repeat;
     z-index: -1;
+  }
+
+  .about-grid {
+  grid-gap: 1.5em;
+  padding: 0.5em;
   }
 
   .image-n-description-grid {
