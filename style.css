@@ -10,7 +10,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: 6.5px;
+  font-size: 8px;
   font-family: 'Quicksand', sans-serif;
   line-height: 1.8;
   color: black;
@@ -52,7 +52,7 @@ footer {
 
 .container {
   padding-left: 2em;
-  max-width: 92em;
+  width: 92em;
   margin: 0 auto;
 }
 
@@ -120,7 +120,7 @@ h3 {
 
 h4 {
   font-weight: 900;
-  font-size: 1.75em;
+  font-size: 3em;
   line-height: 1.25;
   letter-spacing: 0.02em;
   margin-block-start: 0;
@@ -153,7 +153,9 @@ a:hover {
   text-decoration: none;
 }
 
-
+.piece-page p{
+  font-size: 10px;
+}
 
 
 /* PAGE BACKGROUND SHAPES */
@@ -417,7 +419,7 @@ header:after {
 
 .mobile-nav-toggle {
   position: absolute;
-  left: 1em;
+  left: 1.5em;
   top: 1.5em;
   width: 2em;
   height: 2em;
@@ -437,11 +439,11 @@ header:after {
 }
 
 .nav-open .mobile-nav-toggle span:nth-child(1) {
-  transform: rotate(32deg);
+  transform: rotate(35deg);
 }
 
 .nav-open .mobile-nav-toggle span:nth-child(3) {
-  transform: rotate(-32deg);
+  transform: rotate(-35deg);
 }
 
 .nav-open .mobile-nav-toggle span:nth-child(2) {
@@ -486,7 +488,6 @@ header:after {
   font-size: 1rem;
   display: block;
   width: 0.8em;
-  display: grid;
   align-content: center;
   justify-content: center;
   align-items: center;
@@ -648,7 +649,7 @@ header:after {
 /* PORTFOLIO */
 
 .portfolio-container {
-  margin: 0.5em;
+  margin: 0.5em 6em;
   padding: 1em 1em 5em 1em;
   border-radius: 1em;
   overflow: hidden;
@@ -660,7 +661,7 @@ header:after {
   display: grid;
   column-gap: 1em;
   grid-row-gap: 1.5em;
-  padding: 0.5em;
+  padding: 0.5em 5em;
 }
 
 .full-width-item {
@@ -674,8 +675,8 @@ header:after {
 
 h4.full-width-item {
   text-align: left;
+  margin-top: 0.8em;
   margin-bottom: 0.5em;
-  letter-spacing: 2px;
 }
 
 .portfolio-thumbnail {
@@ -855,6 +856,11 @@ h4.full-width-item {
   margin-top: 2em;
 }
 
+.second-image-of-piece h5 {
+  margin: 2em 2em 1em 2em;
+  letter-spacing: 0.5px;
+}
+
 .tims-media {
   left: auto;
   right: auto;
@@ -932,9 +938,6 @@ h4.full-width-item {
   transform: scaleY(0);
 }
 
-.second-image-of-piece h5 {
-  margin-block-start: 0;
-}
 
 .drag {
   position: absolute;
@@ -1214,9 +1217,12 @@ h4.full-width-item {
     padding-top: 6em;
   }
 
-.project-filter {
-  display: grid;
-  grid-template-columns: repeat(6, auto);
+.portfolio-inside-piece {
+  margin: 15em 8em 0 8em;
+}
+
+.portfolio-inside-piece .portfolio-grid {
+  padding: 0.5em 3em;
 }
 
 
@@ -1225,7 +1231,7 @@ h4.full-width-item {
 @media (min-width: 40em) {
 
   body {
-    font-size: 10px;
+    font-size: 12.5px;
   }
 
   h1 {
@@ -1244,6 +1250,16 @@ h4.full-width-item {
     font-size: 2.5em;
   }
 
+  h4.full-width-item {
+  margin-bottom: 0.5em;
+  letter-spacing: 2px;
+}
+
+  .second-image-of-piece h5 {
+    margin-block-start: 0;
+    margin: 0;
+  }
+
   header:before {
     width: 30%;
     left: 20%;
@@ -1253,15 +1269,28 @@ h4.full-width-item {
     width: 30%;
   }
 
+  .mobile-social-media {
+    margin-top: 3em;
+    grid-gap: 4em; 
+  }
+
+  .mobile-social-media a {
+  width: 1.8em;
+  text-align: bottom;
+}
+
   .home-banner {
-    height: 85vh;
+    height: 66vh;
   }
 
   .container {
-  padding-left: 4em;
+  padding-left: 0;
+  width: 88em;
   }
 
-
+  .portfolio-container {
+    margin: 0.5em 10em;
+  }
 
   .portfolio-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -1301,6 +1330,10 @@ h4.full-width-item {
   padding: 0.5em;
   }
 
+  .piece-page p{
+  font-size: 12.5px;
+}
+
   .image-n-description-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto 1fr;
@@ -1334,12 +1367,7 @@ h4.full-width-item {
     padding-left: 4em;
   }
 
-  .description-cat-2 {
-    height: 110vh;
-    margin: 0 4em 0 2em;
-    font-size: 30px;
-    padding-top: 10em;
-  }
+  
 
   .second-image-of-piece {
     width: 75em;
@@ -1352,7 +1380,17 @@ h4.full-width-item {
   }
 
   .portfolio-thumbnail {
-    max-height: 55em;
+    max-height: 43em;
+  }
+
+  .description-cat-2 {
+    height: 80vh;
+    margin: 0 10em 0 4em;
+    padding-top: 15em;
+  }
+
+  .description-cat-2 p {
+    font-size: 20px;
   }
 
   .portfolio-inside-piece {
@@ -1369,89 +1407,6 @@ h4.full-width-item {
 
   .contact-clips:after {
     top: 10em;
-  }
-
-}
-
-@media (min-width: 85em) {
-
-    body {
-    font-size: 14px;
-  }
-
-  h1 {
-    font-size: 4em;
-  }
-
-  h2 {
-    font-size: 4em;
-  }
-
-  h3 {
-    font-size: 2.3em;
-  }
-
-  h4 {
-    font-size: 2.5em;
-  }
-
-  header:before {
-    width: 30%;
-    left: 20%;
-  }
-
-  header:after {
-    width: 30%;
-  }
-
-  header {
-    min-width: 60em;
-  }
-
-  .nav {
-    grid-template-columns: 20% 12% 12% 12% 12% 12% 20%;
-  }
-
-  .nav-text {
-    display: block;
-  }
-
-  .mobile-nav-toggle,
-  .mobile-nav {
-    display: none;
-  }
-
-  .nav .social-media,
-  .highlight-grid {
-    display: grid;
-  }
-
-
-  .home-banner .container {
-    padding-top: 3em;
-  }
-
-  .home-banner {
-    height: 75vh;
-  }
-
-  .container {
-  padding-left: 0;
-  }
-
-  .contact-clips {
-    height: 24em;
-  }
-
-  .about-container,
-  .portfolio-container {
-    max-width: 70em;
-    margin: 3.5em auto;
-    padding: 5em;
-  }
-
-  .portfolio-thumbnail {
-    max-height: 27em;
   }
 
   .img-1 {
@@ -1708,6 +1663,110 @@ h4.full-width-item {
   }
 
   .puzzle {
+    margin-top: -80em;
+  }
+
+}
+
+@media (min-width: 85em) {
+
+    body {
+    font-size: 14px;
+  }
+
+  .piece-page p{
+  font-size: 14px;
+}
+
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 4em;
+  }
+
+  h3 {
+    font-size: 2.3em;
+  }
+
+  h4 {
+    font-size: 2.5em;
+  }
+
+  header:before {
+    width: 30%;
+    left: 20%;
+  }
+
+  header:after {
+    width: 30%;
+  }
+
+  header {
+    min-width: 60em;
+  }
+
+  .nav {
+    grid-template-columns: 20% 12% 12% 12% 12% 12% 20%;
+  }
+
+  .nav-text {
+    display: block;
+  }
+
+  .mobile-nav-toggle,
+  .mobile-nav {
+    display: none;
+  }
+
+  .nav .social-media,
+  .highlight-grid {
+    display: grid;
+  }
+
+
+  .home-banner .container {
+    padding-top: 3em;
+  }
+
+  .container {
+    width: 92em; 
+  }
+
+  .home-banner {
+    height: 75vh;
+  }
+
+
+  .contact-clips {
+    height: 24em;
+  }
+
+  .about-container,
+  .portfolio-container {
+    max-width: 70em;
+    margin: 3.5em auto;
+    padding: 5em;
+  }
+
+  .portfolio-grid {
+  padding: 0.5em;
+  }
+
+  .portfolio-thumbnail {
+    max-height: 27em;
+  }
+
+  .description-cat-2 {
+    height: 110vh;
+    margin: 0 4em 0 2em;
+    font-size: 30px;
+    padding-top: 10em;
+  }
+
+
+  .puzzle {
     margin-top: -60em;
   }
 
@@ -1736,7 +1795,7 @@ h4.full-width-item {
 }
 
 .puzzle {
-  height: 70em;
+  height: 100em;
 }
 
 .welcome {
