@@ -195,7 +195,7 @@ body:after {
 }
 
 .about-page:before {
-  top: 90vh;
+  top: 125vh;
   height: calc(100% - 90vh);
   width: 80%;
 }
@@ -786,7 +786,7 @@ h4.full-width-item {
   height: 10em;
   border-radius: 0 5em 0 0;
   background: white;
-  bottom: -6em;
+  bottom: -15em;
   left: -6em;
   z-index: 2;
   box-shadow: 5px -5px 10px -5px rgb(40 40 40 / 25%);
@@ -1363,6 +1363,14 @@ h4.full-width-item {
     font-size: 20px;
   }
 
+  .contact-clips {
+    min-height: 10em;
+  }
+
+  .contact-clips:after {
+    top: 10em;
+  }
+
 }
 
 @media (min-width: 85em) {
@@ -1429,6 +1437,10 @@ h4.full-width-item {
 
   .container {
   padding-left: 0;
+  }
+
+  .contact-clips {
+    height: 24em;
   }
 
   .about-container,
@@ -1698,6 +1710,8 @@ h4.full-width-item {
   .puzzle {
     margin-top: -60em;
   }
+
+  
 
 
 }
