@@ -51,9 +51,12 @@ footer {
 }
 
 .container {
-  padding-left: 2em;
-  width: 92em;
+  width: 54em;
   margin: 0 auto;
+}
+
+.home-banner .container {
+  padding-left: 2em;
 }
 
 .back-to-top,
@@ -111,7 +114,7 @@ h2 {
 
 h3 {
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 2.5em;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #d3858e;
@@ -197,15 +200,15 @@ body:after {
 }
 
 .about-page:before {
-  top: 125vh;
-  height: calc(100% - 90vh);
+  top: 105vh;
+  height: calc(100% - 105vh);
   width: 80%;
 }
 
 .about-page:after {
   width: 30%;
-  top: 70vh;
-  height: calc(100% - 70vh);
+  top: 60vh;
+  height: calc(100% - 60vh);
 }
 
 .portfolio-page:before {
@@ -510,8 +513,8 @@ header:after {
 
 .home-banner {
   min-height: 20em;
-  height: 25vh;
-  margin: 3em 0 0 0;
+  height: 27vh;
+  margin: 1em 0 0 0;
   position: relative;
   background-image: url(img/homebanner.png);
   background-size: contain;
@@ -616,7 +619,7 @@ header:after {
 }
 
 .about-container {
-  margin: 0.5em;
+  margin: 0.5em 6em;
   border-radius: 1em;
   overflow: hidden;
   background: white;
@@ -624,10 +627,12 @@ header:after {
   padding: 1em 1em 5em 1em;
 }
 
+
+
 .about-grid {
   display: grid;
   grid-gap: 2em;
-  padding: 1.5em 16em;
+  padding: 1.5em 7em;
 }
 
 .about-item {
@@ -1243,7 +1248,7 @@ h4.full-width-item {
   }
 
   h3 {
-    font-size: 1.3em;
+    font-size: 2.3em;
   }
 
   h4 {
@@ -1281,6 +1286,7 @@ h4.full-width-item {
 
   .home-banner {
     height: 66vh;
+    margin: 3em 0 0 0;
   }
 
   .container {
@@ -1292,16 +1298,17 @@ h4.full-width-item {
     margin: 0.5em 10em;
   }
 
-  .portfolio-grid {
+  .portfolio-grid, .about-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto 1fr;
   }
 
-  .about-grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto 1fr;
-    grid-template-rows: repeat(3);
+
+
+  .about-container {
+  margin: 0.5em;
   }
+
 
   .bg-white-mobile {
     background: none;
@@ -1687,7 +1694,7 @@ h4.full-width-item {
   }
 
   h3 {
-    font-size: 2.3em;
+    font-size: 2.8em;
   }
 
   h4 {
@@ -1728,6 +1735,7 @@ h4.full-width-item {
 
   .home-banner .container {
     padding-top: 3em;
+    padding-left: 0;
   }
 
   .container {
