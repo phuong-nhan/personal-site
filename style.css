@@ -764,10 +764,30 @@ h4.full-width-item {
   text-align: center;
 }
 
+.illustrate-box {
+  display: block;
+  padding: 1em;
+  background: white;
+  border-radius: 1em;
+  box-shadow: 0 0 15px 0 #7ec3c7ad;
+  margin: 2em auto;
+  max-width: 80em;
+  position: relative;
+  text-align: center;
+}
+
+
 .contact-clips {
   position: relative;
   z-index: 2;
   max-width: 50em;
+  margin: 10em auto;
+}
+
+.illustration-clips {
+  position: relative;
+  z-index: 2;
+  max-width: 90em;
   margin: 10em auto;
 }
 
