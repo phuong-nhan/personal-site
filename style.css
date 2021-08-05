@@ -709,7 +709,7 @@ h4.full-width-item {
   height: 8em;
   width: 8em;
   background: white;
-  z-index: 1;
+  z-index: -1;
   border-radius: 0 0 0 4em;
   box-shadow: -5px 5px 10px -5px rgb(40 40 40 / 25%);
   transform: rotate(45deg);
@@ -729,7 +729,7 @@ h4.full-width-item {
   height: 8em;
   width: 8em;
   background: white;
-  z-index: 1;
+  z-index: -1;
   border-radius: 0 4em 0 0;
   box-shadow: 5px -5px 10px -5px rgb(40 40 40 / 25%);
   transform: rotate(45deg);
