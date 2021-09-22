@@ -671,6 +671,10 @@ header:after {
   padding: 0.5em 3em;
 }
 
+.portfolio-inside-piece {
+    margin-top: 15em;
+  }
+
 .full-width-item {
   grid-column: 1 / -1;
 }
@@ -1285,10 +1289,6 @@ h4.full-width-item {
     margin: 2em 2em 0 2em;
     padding-top: 6em;
   }
-
-.portfolio-inside-piece {
-  margin: 15em 8em 0 8em;
-}
 
 
 
