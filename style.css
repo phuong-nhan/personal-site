@@ -948,9 +948,6 @@ h4.full-width-item {
   margin: 0;
 }
 
-.dotw {
-  padding: 0 20em;
-}
 
 .thumbnail-tims {
   position: absolute;
@@ -1734,6 +1731,10 @@ h4.full-width-item {
     margin-top: -80em;
   }
 
+  .dotw {
+  padding: 0 15em;
+}
+
 }
 
 @media (min-width: 85em) {
@@ -1839,10 +1840,10 @@ h4.full-width-item {
     margin-top: -60em;
   }
 
-  
-
-
+  .dotw {
+  padding: 0 20em;
 }
+
 
 
 
