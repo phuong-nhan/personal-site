@@ -75,36 +75,37 @@ anchorscroll(0.5, '.scroll', 0)
 
 
 
-let playVid = document.querySelector('.play')
-let video  = document.querySelector('.vid')
-let timhortons = document.querySelector('.timhortons')
+// let playVid = document.querySelector('.play')
+// let video  = document.querySelector('.vid')
+// let timhortons = document.querySelector('.timhortons')
 
-function playPauseVid() {
-  if (document.body.id === 'playing') {
-    video.pause()
-    timhortons.pause()
-    document.body.id = ''
-  } else {
-    video.play()
-    timhortons.play()
-    document.body.id = 'playing'
-  }
+// function playPauseVid() {
+//   if (document.body.id === 'playing') {
+//     video.pause()
+//     timhortons.pause()
+//     document.body.id = ''
+//   } else {
+//     video.play()
+//     timhortons.play()
+//     document.body.id = 'playing'
+//   }
 
-}
+// }
 
-if (playVid) {
-  playVid.addEventListener('click', playPauseVid)
-}
+// if (playVid) {
+//   playVid.addEventListener('click', playPauseVid)
+// }
 
-function playAudio() {
-  timhortons.play() 
-  console.log('play')
-}
+// function playAudio() {
+//   timhortons.play() 
+//   console.log('play')
+// }
 
-function pauseAudio() {
-  timhortons.pause()
-  console.log('pause')
-}
+// function pauseAudio() {
+//   timhortons.pause()
+//   console.log('pause')
+// }
+
 
 // if (jupiter) {
 //   jupiter.addEventListener('click', playAudio)
@@ -222,3 +223,38 @@ function draggable(selector) {
     document.querySelector('.reset').addEventListener('click', resetAllItems)
   }
 }
+
+
+// Tab
+
+
+'use strict';
+
+function Tabs() {
+  var bindAll = function() {
+    var menuElements = document.querySelectorAll('[data-tab]');
+    for(var i = 0; i < menuElements.length ; i++) {
+      menuElements[i].addEventListener('click', change, false);
+    }
+  }
+
+  var clear = function() {
+    var menuElements = document.querySelectorAll('[data-tab]');
+    for(var i = 0; i < menuElements.length ; i++) {
+      menuElements[i].classList.remove('active');
+      var id = menuElements[i].getAttribute('data-tab');
+      document.getElementById(id).classList.remove('active');
+    }
+  }
+
+  var change = function(e) {
+    clear();
+    e.target.classList.add('active');
+    var id = e.currentTarget.getAttribute('data-tab');
+    document.getElementById(id).classList.add('active');
+  }
+
+  bindAll();
+}
+
+var connectTabs = new Tabs();
