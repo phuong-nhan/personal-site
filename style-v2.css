@@ -25,7 +25,7 @@ li {
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 0.35px;
-    border-radius: 0.5em;
+    border-radius: 40px;
     min-width: 12em;
     line-height: 1;
     border-width: 0;
@@ -164,8 +164,8 @@ li {
 
 .Social__link {
     display: flex;
-    align-items: flex-end;
-    gap: 22px;
+    align-items: center;
+    gap: 20px;
     transform: translateY(5px);
 }
 
@@ -189,7 +189,6 @@ li {
 
 .Applogo_All {
     position: absolute;
-    left: 63%;
     transform: translateX(-50%);
     max-width: 750px;
 }
@@ -207,9 +206,6 @@ section.aboutMe-area .row {
     text-align: left;
 }
 
-.aboutMe_text .section__title h4 {
-    margin-bottom: 30px;
-}
 
 .aboutMe_text {
     max-width: 350px;
@@ -239,7 +235,7 @@ section.aboutMe-area {
 .myWork-area {}
 
 .section__title h4 {
-    font-size: 5em;
+    font-size: 4em;
     margin-bottom: 20px;
 }
 
@@ -296,9 +292,6 @@ section.aboutMe-area {
     position: relative;
 }
 
-.row .myWork_nav {
-    padding-bottom: 40px;
-}
 
 #myWork_nav::before {
     content: "";
@@ -556,18 +549,18 @@ section.aboutMe-area {
 .market_text ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 10px 0;
 }
 
 .market_text ul li {
     flex: 0 0 40%;
     text-align: left;
-    font-size: 16px;
+    font-size: 14px;
     padding-left: 20px;
     position: relative;
-    font-weight: 700;
-    line-height: 1.4;
+    font-weight: 500;
+    line-height: 1.8;
 }
 
 .market_text ul li:after {
@@ -708,6 +701,7 @@ section.aboutMe-area {
     }
     
     .col-lg-4 {
+        padding: 0 20px;
     }
     
     .container {
@@ -724,10 +718,7 @@ section.aboutMe-area {
     }
     
     .Applogo_All {
-        right: 0;
-        left: auto;
-        transform: unset;
-        max-width: 560px;
+        max-width: 590px;
     }
     
     .about__hero__content>ul {
