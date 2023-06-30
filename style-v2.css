@@ -15,7 +15,7 @@ li {
 }
 
 .thm_btn {
-    font-size: 16px;
+    font-size: 18px;
     display: inline-block;
     align-items: center;
     margin-top: 1em;
@@ -31,6 +31,12 @@ li {
     border-width: 0;
     text-align: center;
     text-transform: capitalize;
+}
+.about__btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .thm_btn.radius{
     border-radius: 35px;
@@ -74,9 +80,7 @@ li {
     content: "";
     position: absolute;
     width: 100%;
-    height: 200px;
     left: 0;
-    top: 50%;
     transform: translateY(-50%);
     background: var(--thmColor1);
     z-index: -1;
@@ -206,9 +210,8 @@ section.aboutMe-area .row {
     text-align: left;
 }
 
-
 .aboutMe_text {
-    max-width: 350px;
+    max-width: 400px;
 }
 
 section.aboutMe-area {
@@ -223,10 +226,6 @@ section.aboutMe-area {
     top: 56%;
 }
 
-.mySoft-Area::before {
-    top: 60%;
-}
-
 /* Skills_area  End*/
 
 
@@ -235,13 +234,11 @@ section.aboutMe-area {
 .myWork-area {}
 
 .section__title h4 {
-    font-size: 4em;
     margin-bottom: 20px;
 }
 
 .section__title a {
     border-radius: 40px;
-    font-size: 1.3em;
 }
 
 .myWork_nav ul {
@@ -402,7 +399,7 @@ section.aboutMe-area {
 .MyWork_slider .owl-stage-outer {}
 .MyWork_slider {
     /* margin: 0 150px; */
-     /* max-width: 1400px; */
+    /* max-width: 1400px; */
     margin: auto;  
     max-width: 1400px;
 }
@@ -742,10 +739,10 @@ section.aboutMe-area {
     .market_text ul {
         margin-top: 30px;
     }
- }
+}
 
 
- @media (min-width: 768px ) and ( max-width: 992px){
+@media (min-width: 768px ) and ( max-width: 992px){
 
     .forDesktop {
         display: none !important;
@@ -777,117 +774,117 @@ section.aboutMe-area {
     
     .Applogo_All {
        left: 50%;
-    }
-    
-    .about__hero__content>ul {
-        gap: 10px;
-        font-size: 16px;
-    }
-    
-    .myWork_nav ul {
-        flex-wrap: wrap;
-        padding: 0px 10px;
-        gap: 15px 25px;
-        justify-content: center;
-    }
-    
-    .tabBlk {
-        margin-top: 20px;
-    }
-    
-    .market_text ul li {
-        flex: 0 0 46%;
-    }
-    
-    .market_text ul {
-        margin-top: 30px;
-    } 
-    .social-media {
-        display: none !important;
-    }
-    
-    .hero__home-Area {
-        padding-top: 70px;
-    }
+   }
 
-    .hero__home__thumb {
-        text-align: center;
-    }
+   .about__hero__content>ul {
+    gap: 10px;
+    font-size: 16px;
+}
 
-    
-    .Social__link {
-        gap: 15px;
-    }
-    .aboutMe_text {
-        max-width: 90%;
-        text-align: center;
-        margin-top: -40px;
-    }
-    
-    .aboutMe_text .section__title {
-        text-align: center;
-    }
-    
-    .Skills_img {
-        display: none;
-    }
-    .Skills_area .row > .col-lg-6 {
-        max-width: 500px;
-        margin-inline: auto;
-    }
-    
-    .Skills_area .row .col-lg-6 .row .col-lg-6 {
-        width: 50%;
-    }
-    
-    .Skills_area .section__title {
-        margin: 20px 0;
-    }
-    
-    .MyWork_slider .owl-item.active.center:after, .MyWork_slider .owl-item.active.center:before, .styleShape:after, .styleShape:before {
-        display: none;
-    }
-    .uiux_blk_text {
-        flex: 0 0 45%;
-        padding: 10px 20px;
-    }
-    
-    .ui-ux_blk {
-        border-radius: 20px;
-    }
-    .MyWork_slider .owl-item.active.center{padding: 0;}
-    .Illustration-slider_blk {
-        margin-bottom: 20px;
-    }
-    .typo_content_blk i {
-        margin-bottom: 20px;
-    }
-    .for_md {
-        display: block;
-    }
-    
-    .for_lg {
-        display: none;
-    }
-    .hero__home-Area .about__hero__content::before {
-        left: 0px;
-        width: 120px;
-        height: 120px;
-    }
-    section.hero__home-Area .about__hero__content {
-        padding-left: 30px;
-    }
+.myWork_nav ul {
+    flex-wrap: wrap;
+    padding: 0px 10px;
+    gap: 15px 25px;
+    justify-content: center;
+}
 
-    #tabLink-1 .col-lg-6 ,
-    #tabLink-4 .col-lg-6 ,
-    #tabLink-3 .col-lg-6 {
-        width: 50%;
-    }
-    .second-image-of-piece {
-        width: 95%;
-    }
+.tabBlk {
+    margin-top: 20px;
+}
 
- }
+.market_text ul li {
+    flex: 0 0 46%;
+}
+
+.market_text ul {
+    margin-top: 30px;
+} 
+.social-media {
+    display: none !important;
+}
+
+.hero__home-Area {
+    padding-top: 70px;
+}
+
+.hero__home__thumb {
+    text-align: center;
+}
+
+
+.Social__link {
+    gap: 15px;
+}
+.aboutMe_text {
+    max-width: 90%;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.aboutMe_text .section__title {
+    text-align: left;
+}
+
+.Skills_img {
+    display: none;
+}
+.Skills_area .row > .col-lg-6 {
+    max-width: 500px;
+    margin-inline: auto;
+}
+
+.Skills_area .row .col-lg-6 .row .col-lg-6 {
+    width: 50%;
+}
+
+.Skills_area .section__title {
+    margin: 20px 0;
+}
+
+.MyWork_slider .owl-item.active.center:after, .MyWork_slider .owl-item.active.center:before, .styleShape:after, .styleShape:before {
+    display: none;
+}
+.uiux_blk_text {
+    flex: 0 0 45%;
+    padding: 10px 20px;
+}
+
+.ui-ux_blk {
+    border-radius: 20px;
+}
+.MyWork_slider .owl-item.active.center{padding: 0;}
+.Illustration-slider_blk {
+    margin-bottom: 20px;
+}
+.typo_content_blk i {
+    margin-bottom: 20px;
+}
+.for_md {
+    display: block;
+}
+
+.for_lg {
+    display: none;
+}
+.hero__home-Area .about__hero__content::before {
+    left: 0px;
+    width: 120px;
+    height: 120px;
+}
+section.hero__home-Area .about__hero__content {
+    padding-left: 30px;
+}
+
+#tabLink-1 .col-lg-6 ,
+#tabLink-4 .col-lg-6 ,
+#tabLink-3 .col-lg-6 {
+    width: 50%;
+}
+.second-image-of-piece {
+    width: 95%;
+}
+
+}
 
 
 
@@ -895,21 +892,22 @@ section.aboutMe-area {
     .sec_padding{
         padding: 60px 0;
     }
+
     .hero__home-Area {
-        padding-top: 75px;
-        padding-bottom:115px
+        padding: 75px 15px 85px;
     }
+
     .second-image-of-piece {
         width: 95%;
     }
     .hero__home-Area h4 {
-        font-size: 34px;
+        font-size: 42px;
     }
     
     .about__hero__content>ul {
         gap: 7px;
         font-size: 15px;
-    font-weight: 500;
+        font-weight: 500;
     }
     .col-lg-6{
         padding: 0 15px;
@@ -961,83 +959,90 @@ section.aboutMe-area {
     }
     .about__btn a {
         font-size: 13px;
-        padding: 10px 15px;
+        padding: 12px 22px;
         min-width: auto;
-        margin: auto;
     }
     
-    .about__btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
     
     .parson_info ul li:last-child {
         flex: 0 0 100%;
         text-align: center;
     }
-    
-    .parson_info {
-        padding: 0 10px;
-    }
-    
-    .Social__link {
-        justify-content: center;
-    }
-    
-    .parson_info ul li {
-        border-radius: 15px;
-        padding: 12px;
-    
-        flex: 44%;
-    }
-    .parson_info ul li a {
-        font-size: 12px;
-    }
-    section.aboutMe-area .row {
-        flex-direction: column-reverse;
-    }
-    
-    .aboutMe_text {
-        text-align: center;
-    }
-    
-    .aboutMe_text {}
-    
-    .aboutMe_text .section__title {
-        text-align: center;
-        padding-bottom: 0;
-    }
-    
-    .aboutMe_text .section__title p {
-        font-size: 14px;
-    }
-    
-    section.aboutMe-area {
-        margin-top: 50px;
-        padding-bottom: 0;
-    }
-    
-    .Skills_img {
-        display: none;
-    }
-    
-    .Skills_area .co-container .row .col-lg-6 .row .col-lg-6 {
-        flex: 0 0 50%;
-        padding: 0 10px;
-    }
-    
-    .Skills_area .col-lg-12 {
-        flex:  0 0 100%;
-    }
-    
-    .Skills_area .co-container .row > .col-lg-6 {
-        flex: 0 0 100%;
-    }
-    .myWork_nav ul li a {
-        font-size: 15px;
-    }
+
+    .parson_info:before {
+      position: absolute;
+      left: 0;
+      top: 20%;
+      right: 0;
+      content: '';
+      height: 100px;
+      z-index: -1;
+      background: #a3dce0;
+  }
+
+  .parson_info {
+    padding: 0 35px;
+}
+
+.Social__link {
+    justify-content: center;
+}
+
+.parson_info ul li {
+    border-radius: 15px;
+    padding: 12px;
+
+    flex: 44%;
+}
+.parson_info ul li a {
+    font-size: 12px;
+}
+section.aboutMe-area .row {
+    flex-direction: column-reverse;
+}
+
+.aboutMe_text {
+    text-align: center;
+}
+
+.aboutMe_text {}
+
+.aboutMe_text .section__title {
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.aboutMe_text .section__title p {
+    font-size: 14px;
+}
+
+section.aboutMe-area {
+    padding: 125px 20px 0;
+}
+
+.Skills_img {
+    display: none;
+}
+
+.Skills_area {
+    margin-top: 0;
+}
+
+.Skills_area .co-container .row .col-lg-6 .row .col-lg-6 {
+    flex: 0 0 50%;
+    padding: 0 10px;
+}
+
+.Skills_area .col-lg-12 {
+    flex:  0 0 100%;
+}
+
+.Skills_area .co-container .row > .col-lg-6 {
+    flex: 0 0 100%;
+}
+.myWork_nav ul li a {
+    font-size: 15px;
+}
 
 .market_text h3 {
     font-size: 18px;
@@ -1096,7 +1101,7 @@ section.aboutMe-area {
 }
 
 .uiux_blk_text p {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.5;
 }
 
@@ -1120,12 +1125,16 @@ section.aboutMe-area {
     border-radius: 20px;
 }
 .uiux_blk_text {
-    padding: 20px 15px 10px;
+    padding: 25px 15px 10px;
     padding-left: 20px;
 }
 
 .uiux_blk_text h4 {
-    font-size: 22px;
+    font-size: 20px;
+}
+
+.MyWork_slider .owl-item .slider_item_papercut {
+    margin: 32px;
 }
 
 
@@ -1157,5 +1166,5 @@ section.aboutMe-area {
 }
 
 @media (min-width: 480px ) and ( max-width: 767px){
-    
+
 }

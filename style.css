@@ -161,94 +161,8 @@ a:hover {
 }
 
 .piece-page p {
-  font-size: 14px;
+  font-size: 11px;
 }
-
-
-/* PAGE BACKGROUND SHAPES */
-
-body:before {
-  content: '';
-  position: absolute;
-  top: 15em;
-  left: 0;
-  width: 60%;
-  height: calc(100% - 15em);
-  background: #87d1d6;
-  z-index: -6;
-  border-radius: 0 1em 0 0;
-}
-
-body:after {
-  content: '';
-  position: absolute;
-  top: 10em;
-  right: 0;
-  width: 50%;
-  height: calc(100% - 10em);
-  background: #DBACB2;
-  z-index: -5;
-  border-radius: 1em 0 0 0;
-}
-
-.home-page:before {
-  top: 210vh;
-  height: calc(100% - 210vh);
-  width: 70%;
-}
-
-.home-page:after {
-  top: 194vh;
-  height: calc(100% - 194vh);
-  width: 40%;
-}
-
-.about-page:before {
-  top: 105vh;
-  height: calc(100% - 105vh);
-  width: 80%;
-}
-
-.about-page:after {
-  width: 30%;
-  top: 60vh;
-  height: calc(100% - 60vh);
-}
-
-.portfolio-page:before {
-  width: 40%;
-  top: 40vh;
-  height: calc(100% - 40vh);
-}
-
-.portfolio-page:after {
-  width: 60%;
-  top: 27vh;
-  height: calc(100% - 27vh);
-}
-
-.contact-page:before {
-  height: calc(100% - 100vh);
-  top: 100vh;
-}
-
-.contact-page:after {
-  height: calc(100% - 100vh);
-  top: 100vh;
-}
-
-.piece-page:before {
-  height: calc(100% - 275vh);
-  top: 275vh;
-  border-radius: 0;
-}
-
-.piece-page:after {
-  height: calc(100% - 290vh);
-  top: 290vh;
-  border-radius: 0;
-}
-
 
 
 /* NAVIGATION */
@@ -1346,7 +1260,6 @@ h4.full-width-item {
 
 .about__btn a {
   background: #D1838D !important;
-  margin-right: 10px;
 }
 
 .about__btn {
@@ -1504,8 +1417,8 @@ h4.full-width-item {
 .Skills_area .section__title h4{
   font-size: 40px;
   margin-bottom: 0;
-
 }
+
 .Skills_area {
   margin-top: -75px;
 }
@@ -1740,7 +1653,7 @@ h4.full-width-item {
 
 
 
-/* XL Device :1200px - 2560px */
+/* XL Device :1500px - 2560px */
 @media (min-width: 1500px) and (max-width: 2565px) {
   .MyWork-tab_content {
     margin-left: 400px;
@@ -1752,6 +1665,12 @@ h4.full-width-item {
   .Applogo_All {
     left: 62%;
   }
+  .description, .description-cat-1 {
+    margin: 8em 8em 0 2em;
+  }
+  .piece-page p {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -1760,15 +1679,52 @@ h4.full-width-item {
     left: 20%;
   }
 
+  .aboutMe_text p{
+    font-size: 15px;
+  }
+
+  .aboutMe_text .section__title {
+    padding-bottom: 0;
+  }
+
   .market_text ul {
     margin: 30px 80px auto 80px;
   }
+
+  .MyWork_slider .owl-item.active.center .slider_item {
+    padding: 20px;
+  }
+  .MyWork_slider .owl-item.active.center .slider_item_papercut {
+    margin: 20px;
+  }
+
+  .mySoft-Area::before {
+    top: 60%;
+  }
+
+  .bg-1:before {
+    height: 150px;
+  }
+  .Skills_area .co-container {
+    padding-left: 175px;
+  }
+  .about__btn {
+    margin-right: 90px;
+  }
+  .typo_content {
+    margin: auto 75px;
+  }
+
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
 
   header:after {
     width: 30%;
+  }
+
+  .piece-page p {
+    font-size: 14px;
   }
 
   .nav-logo {
@@ -1803,13 +1759,6 @@ h4.full-width-item {
     margin-right: 225px;
   }
 
-  .MyWork_slider .owl-item.active.center .slider_item {
-    padding: 20px;
-  }
-  .MyWork_slider .owl-item.active.center .slider_item_papercut {
-    margin: 20px;
-  }
-
 }
 
 
@@ -1817,180 +1766,188 @@ h4.full-width-item {
 
 @media (min-width: 992px) and (max-width: 1200px) {
 
-header:before {
-  top: -25%;
-  width: 35%;
-  left: 12%;
-}
+  header:before {
+    top: -25%;
+    width: 35%;
+    left: 12%;
+  }
 
-header:after {
-  top: -25%;
-  width: 35%;
-  left: 53%;
-}
+  header:after {
+    top: -25%;
+    width: 35%;
+    left: 53%;
+  }
 
-header {
-  max-width: 110em;
-  padding-bottom: 0;
-}
+  header {
+    max-width: 110em;
+    padding-bottom: 0;
+  }
 
-h3 {
-  font-size: 1.8em;
-}
+  h3 {
+    font-size: 1.8em;
+  }
 
-h4 {
-  font-size: 2em;
-}
+  h4 {
+    font-size: 2em;
+  }
 
-.Applogo_All {
-  left: 68%;
-}
+  .Applogo_All {
+    left: 68%;
+  }
 
-.pnhan-hero-image {
-  max-width: 80%;
-}
+  .pnhan-hero-image {
+    max-width: 80%;
+  }
 
-.piece-page p {
-  font-size: 12px;
-}
+  .piece-page p {
+    font-size: 12px;
+  }
 
-.description {
-  margin: 4em 4em 0 0;
-  padding-left: 3em;
-}
+  .description {
+    margin: 4em 4em 0 0;
+    padding-left: 3em;
+  }
 
-.description-2 {
-  margin: 1.5em 4em auto 0;
-  padding-left: 4em;
-}
+  .description-2 {
+    margin: 1.5em 4em auto 0;
+    padding-left: 4em;
+  }
 
-.nav {
-  grid-template-columns: 10% 16% 16% 16% 16% 16% 10%;
-}
+  .nav {
+    grid-template-columns: 10% 16% 16% 16% 16% 16% 10%;
+  }
 
-.nav-logo {
-  height: 9em;
-  width: 9em;
-  padding: 0.85em;
-  border-radius: 0 0 5.5em 5.5em;
-}
+  .nav-logo {
+    height: 9em;
+    width: 9em;
+    padding: 0.85em;
+    border-radius: 0 0 5.5em 5.5em;
+  }
 
-.nav-logo img {
-  max-width: 6.5em;
-}
+  .nav-logo img {
+    max-width: 6.5em;
+  }
 
-.nav-text {
-  display: block;
-  font-size: 12px;
-}
+  .nav-text {
+    display: block;
+    font-size: 12px;
+  }
 
-.mobile-nav-toggle,
-.mobile-nav {
-  display: none;
-}
+  .mobile-nav-toggle,
+  .mobile-nav {
+    display: none;
+  }
 
-.nav .social-media {
-  display: grid;
-}
+  .nav .social-media {
+    display: grid;
+  }
 
-.highlight-grid {
-  display: grid;
-  top: 22px;
-  grid-template-columns: 10% 16% 16% 16% 16% 16% 10%;
-}
+  .highlight-grid {
+    display: grid;
+    top: 22px;
+    grid-template-columns: 10% 16% 16% 16% 16% 16% 10%;
+  }
 
-.page-highlight {
-  width: 2.5em;
-  height: 2.5em;
-}
+  .page-highlight {
+    width: 2.5em;
+    height: 2.5em;
+  }
 
-.about__hero__content::before {
-  left: 20px;
-  top: -30px;
-  content: '';
-  height: 80px;
-  width: 80px;
-}
+  .about__hero__content::before {
+    left: 20px;
+    top: -30px;
+    content: '';
+    height: 80px;
+    width: 80px;
+  }
 
-.about__hero__content {
-  padding: 0 50px;
-}
+  .about__hero__content {
+    padding: 0 50px;
+  }
 
-.about__hero__content h4 {
-  font-size: 40px;
-  letter-spacing: 0;
-}
+  .about__hero__content h4 {
+    font-size: 40px;
+    letter-spacing: 0;
+  }
 
-.container {
-  width: 80em;
-}
+  .container {
+    width: 80em;
+  }
 
-.col-lg-6 {
-  width: 50%;
-  padding-bottom: 0;
-}
+  .col-lg-6 {
+    width: 50%;
+    padding-bottom: 0;
+  }
 
-.about__hero__area .col-lg-6 {
-  padding: 0 0 0 30px;
-}
+  .about__hero__area .col-lg-6 {
+    padding: 0 0 0 30px;
+  }
 
-.about__hero__area {
-  padding-top: 10px;
-}
+  .about__hero__area {
+    padding-top: 10px;
+  }
 
-.about__thumb img {
-  max-width: 700px;
-  margin: 0 auto 0 -50px;
-}
+  .about__thumb img {
+    max-width: 700px;
+    margin: 0 auto 0 -50px;
+  }
 
-.works__date h3 {
-  margin: 0.2em 0;
-}
+  .works__date h3 {
+    margin: 0.2em 0;
+  }
 
-.works__date p , .work__details__top__text h4, .current__text p {
-  font-size: 14px;
-}
+  .works__date p , .work__details__top__text h4, .current__text p {
+    font-size: 14px;
+  }
 
-.work__details__top__text p , .skill__text p , .level_bottom_text p {
-  font-size: 12px;
-}
+  .work__details__top__text p , .skill__text p , .level_bottom_text p {
+    font-size: 12px;
+  }
 
-.wrk__details__inner__blk ul li {
-  padding-right: 0;
-  margin-bottom: 4px;
-  font-size: 12px;
-  line-height: 17px;
-}
+  .wrk__details__inner__blk ul li {
+    padding-right: 0;
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 17px;
+  }
 
-.col-lg-3 , .col-lg-4 {
-  padding: 8px;
-}
+  .col-lg-3 , .col-lg-4 {
+    padding: 8px;
+  }
 
-.row .myWork_nav {
-  padding-left: 75px;
-  padding-right: 75px;
-}
+  .row .myWork_nav {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
 
-.MyWork-tab_content {
-  margin-left: 150px;
-  margin-right: 150px;
-}
+  .MyWork-tab_content {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
 
-.MyWork_slider .owl-item.active.center .slider_item {
-  padding: 20px;
-}
+  .MyWork_slider .owl-item.active.center .slider_item {
+    padding: 20px;
+  }
 
-.mySoft-Area .row {
-  margin: 0 150px;
-}
+  .mySoft-Area .row {
+    margin: 0 150px;
+  }
 
-.market-area {
-  margin: auto 150px;
-}
+  .market-area {
+    margin: auto 150px;
+  }
 
-section.aboutMe-area {
-  padding-left: 60px;
-}
+  section.aboutMe-area {
+    padding-left: 60px;
+  }
+
+  .mySoft-Area::before {
+    top: 60%;
+  }
+
+  .bg-1:before {
+    height: 200px;
+  }
 
 }
 
@@ -2013,6 +1970,10 @@ section.aboutMe-area {
 
   .Applogo_All {
     left: 63%;
+  }
+
+  .about__btn .thm_btn {
+    padding: 12px 110px;
   }
 
   .nav {
@@ -2135,6 +2096,13 @@ section.aboutMe-area {
   .MyWork_slider .owl-item.active.center .slider_item {
     padding: 20px;
   }
+  .mySoft-Area::before {
+    top: 60%;
+  }
+
+  .bg-1:before {
+    height: 200px;
+  }
 
 }
 
@@ -2169,6 +2137,13 @@ section.aboutMe-area {
   .MyWork_slider .owl-item.active.center .slider_item {
     padding: 32px;
   }
+  .mySoft-Area::before {
+    top: 60%;
+  }
+
+  .bg-1:before {
+    height: 200px;
+  }
 
 }
 
@@ -2188,6 +2163,14 @@ section.aboutMe-area {
 
   .Applogo_All {
     left: 63%;
+  }
+
+  .hero__home__thumb {
+    text-align: right;
+  }
+
+  .pnhan-hero-image {
+    max-width: 94%;
   }
 
   .about__hero__content::before {
@@ -2219,7 +2202,7 @@ section.aboutMe-area {
   }
 
   .about__hero__area {
-    padding-top: 70px;
+    padding: 70px 15px 0;
   }
 
   .about__thumb img {
@@ -2238,6 +2221,10 @@ section.aboutMe-area {
 
   .activities__area .container {
     width: 340px;
+  }
+
+  .myWork-Area .section__title h4{
+    font-size: 40px;
   }
 
   .about__hero__content h4 {
@@ -2305,6 +2292,18 @@ section.aboutMe-area {
     padding: 15px;
   }
 
+  .mySoft-Area .col-lg-4 {
+    padding: 15px 80px;
+  }
+
+  .mySoft-Area::before {
+    top: 54%;
+  }
+
+  .bg-1:before {
+    height: 550px;
+  }
+
   .skill__area::before {
     bottom: 175px;
     height: 230px;
@@ -2336,10 +2335,6 @@ section.aboutMe-area {
     font-size: 35px;
   }
 
-  .level_area:before {
-    height: 656px;
-  }
-
   .award__area:before {
     height: 590px;
   }
@@ -2347,6 +2342,11 @@ section.aboutMe-area {
   .MyWork_slider .owl-item.active.center .slider_item {
     padding: 32px;
   }
+
+  .ui-ux_blk {
+    margin: auto 20px;
+  }
+
 }
 
 
@@ -2443,20 +2443,6 @@ section.aboutMe-area {
 
   .about-clips {
     margin: 15em auto;
-  }
-
-  .about-me:before {
-    content: '';
-    position: absolute;
-    top: -25%;
-    left: -25%;
-    width: 125%;
-    height: 125%;
-    background-image: url(img/rings-1.png);
-    background-size: contain;
-    background-position: left top;
-    background-repeat: no-repeat;
-    z-index: -1;
   }
 
   .about-grid {
