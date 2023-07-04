@@ -338,6 +338,24 @@ footer .social-media a {
   display: block;
 }
 
+.ui-ux_blk:hover {
+  transform: scale(0.98);
+}
+.code-blk:hover,
+.portfolio-page .slider_item:hover,
+.portfolio-page .Illustration-slider_blk:hover,
+.portfolio-page .typo_content_blk:hover {
+  transform: scale(0.97);
+}
+.ui-ux_blk,
+.code-blk,
+.portfolio-page .slider_item,
+.portfolio-page .Illustration-slider_blk,
+.portfolio-page .typo_content_blk {
+  text-decoration: none;
+  transition: transform 0.35s ease-in;
+}
+
 
 
 
@@ -598,7 +616,6 @@ footer .social-media a {
 }
 
 .portfolio-page h4 {
-  text-align: center;
   max-width: 60rem;
   margin: 0 auto 20px auto;
 }
@@ -1688,7 +1705,7 @@ h4.full-width-item {
   }
 
   .market_text ul {
-    margin: 30px 80px auto 80px;
+    margin: 30px 50px auto 50px;
   }
 
   .MyWork_slider .owl-item.active.center .slider_item {
@@ -1711,8 +1728,36 @@ h4.full-width-item {
   .about__btn {
     margin-right: 90px;
   }
-  .typo_content {
+  .home-page .typo_content {
     margin: auto 75px;
+  }
+
+  .market-area {
+    margin: auto 150px;
+  }
+
+  .MyWork-tab_content {
+    margin-left: 225px;
+    margin-right: 225px;
+  }
+  .portfolio-page .MyWork-tab_content {
+    margin-left: 320px;
+    margin-right: 320px;
+  }
+
+  .portfolio-page .uiux_blk_text h4 {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .portfolio-page .uiux_blk_text p {
+    font-size: 11px;
+    line-height: 1.5;
+  }
+  .portfolio-page .uiux_blk_img img {
+    margin-bottom: -8px;
+  }
+  .portfolio-page .ui-ux_wrp {
+    padding: 0;
   }
 
 }
@@ -1752,11 +1797,6 @@ h4.full-width-item {
   .description-2 {
     margin: 1.5em 9em auto 0;
     padding-left: 4em;
-  }
-
-  .MyWork-tab_content {
-    margin-left: 225px;
-    margin-right: 225px;
   }
 
 }
