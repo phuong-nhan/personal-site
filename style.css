@@ -339,7 +339,7 @@ footer .social-media a {
 }
 
 .ui-ux_blk:hover {
-  transform: scale(0.98);
+  transform: scale(0.99);
 }
 .code-blk:hover,
 .portfolio-page .slider_item:hover,
@@ -353,7 +353,7 @@ footer .social-media a {
 .portfolio-page .Illustration-slider_blk,
 .portfolio-page .typo_content_blk {
   text-decoration: none;
-  transition: transform 0.35s ease-in;
+  transition: transform 0.45s ease-in;
 }
 
 
@@ -911,7 +911,7 @@ h4.full-width-item {
   height: 100%;
   z-index: 1;
   background-size: cover;
-  background-image: url(img/Portfolio/pnhan-uiux-worlddishoftheday-2.jpg);
+  background-image: url(img/Portfolio/pnhan-uiux-worlddishoftheday-3.jpg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2357,8 +2357,8 @@ h4.full-width-item {
   }
 
   .skill__area::before {
-    bottom: 175px;
-    height: 230px;
+    bottom: 185px;
+    height: 630px;
   }
 
   .skill__area {
@@ -2951,12 +2951,11 @@ h4.full-width-item {
 
   .button.reset {
     display: block;
+    padding: 0.5em 1.2em;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .puzzle {
-    height: 100em;
+    border-radius: 40px;
+    font-family: 'Quicksand', sans-serif ;
   }
 
   .welcome {
