@@ -890,6 +890,10 @@ section.hero__home-Area .about__hero__content {
 
 
 @media (max-width: 767px) {
+    .nav-logo img {
+        width: 52px;
+        height: 52px;
+    }
     .sec_padding{
         padding: 60px 0;
     }
