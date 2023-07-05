@@ -781,7 +781,7 @@ h4.full-width-item {
 
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(2, 3em);
+  grid-template-columns: repeat(1, 3em);
   align-items: center;
   grid-gap: 1em;
   justify-content: center;
@@ -792,7 +792,7 @@ h4.full-width-item {
   display: grid;
   grid-template-columns: repeat(4, 3em);
   align-items: center;
-  grid-gap: 1em;
+  grid-gap: 2em;
   justify-content: center;
   padding: 1em;
 }
@@ -2203,6 +2203,13 @@ h4.full-width-item {
 
 @media (min-width: 360px) and (max-width: 767px) {
 
+  .welcome h3 {
+    margin-top: 3em;
+    font-size: 3.5em;
+  }
+  .welcome p {
+    font-size: 13px;
+  }
   .nav-logo {
     height: 9.5em;
     width: 9em;
@@ -2960,7 +2967,7 @@ h4.full-width-item {
 
   .welcome {
     padding: 5em 0.5em 0 0.5em;
-    max-width: 24em;
+    max-width: 40em;
     margin-left: auto;
     margin-right: auto;
   }
