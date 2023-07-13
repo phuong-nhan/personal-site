@@ -1665,7 +1665,7 @@ h4.full-width-item {
   height: 180px;
   width: 180px;
   border-radius: 50%;
-  background: #D1838D;
+  background: #efd2d3;
   z-index: -1;
 }
 
@@ -1877,7 +1877,8 @@ h4.full-width-item {
   }
 
   .nav-logo img {
-    max-width: 6.5em;
+    width: 72px;
+    height: 72px;
   }
 
   .nav-text {
@@ -1905,17 +1906,18 @@ h4.full-width-item {
     height: 2.5em;
   }
 
-  .about__hero__content::before {
+  .about__hero__content:before {
     left: 20px;
     top: -30px;
     content: '';
     height: 80px;
     width: 80px;
   }
-.hero__home-Area .about__hero__content:before {
-	height: 150px;
-	width: 150px;
-}
+  .hero__home-Area .about__hero__content:before {
+    height: 120px;
+    width: 120px;
+  }
+
   .about__hero__content {
     padding: 0 50px;
   }
