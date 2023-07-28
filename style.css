@@ -40,6 +40,10 @@ section {
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-2:before {}
 
 footer {
