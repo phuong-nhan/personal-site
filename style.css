@@ -1896,7 +1896,7 @@ h4.full-width-item {
   }
 
   .nav .social-media {
-    display: grid;
+    display: none;
   }
 
   .highlight-grid {
