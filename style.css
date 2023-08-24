@@ -2010,6 +2010,13 @@ h4.full-width-item {
     height: 200px;
   }
 
+  .welcome {
+    padding: 5em 0.5em 0 0.5em;
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 
 /* Tablet Device: 768px - 1024px. */
